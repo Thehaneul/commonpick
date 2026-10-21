@@ -1,0 +1,49 @@
+{
+  "project": "CommonPick",
+  "version": "commonpick-0.1",
+  "prepared_date": "2026-10-21",
+  "source_sha256": "ec5de2882737f09b2d47604e6f481b05b2decb3c31ba70d89e095d1bdc5a8648",
+  "test_source_sha256": "e207fd40adcb7b3baaaabf2275e215d66b96a47e001dbb0e8061d47bd2bd42fb",
+  "local_checks": {
+    "fixture_tests_passed": 74,
+    "fixture_test_seconds": 24.17,
+    "pytest_exit_code": 0,
+    "overlap_pairings_checked_in_one_test": 729,
+    "lint": "PASS_3_CHECKS",
+    "sdk_validation": "PASS",
+    "python": "3.12.14",
+    "genlayer_test": "0.29.2",
+    "genvm_linter": "0.11.0",
+    "pytest": "9.1.1",
+    "cloudpickle": "3.1.2",
+    "sdk_release": "v0.3.0-rc7",
+    "runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6"
+  },
+  "limitations": [
+    "Authored fixtures, not a live AI accuracy or attack-resistance benchmark",
+    "Direct SDK and explicit rejection harness, not full network consensus or rollback",
+    "Fixed descriptions do not verify actual venue facts or availability",
+    "Selection records a plan, not a booking, payment or attendance",
+    "Live observations are user-provided Accepted-state screenshots; full finalized receipts and full ballot bodies were not independently audited"
+  ],
+  "live_walkthrough": {
+    "status": "COMPLETED_FROM_ACCEPTED_STATE_SCREENSHOTS",
+    "contract_address": "0x8b6591CF732fa0d98b6d47eE832d887811aaDf74",
+    "observed_transactions": [],
+    "planned_deployments": 1,
+    "planned_write_calls_after_deployment": 4,
+    "planned_result_reads": 3,
+    "planned_wallet_switches": 1,
+    "transaction_receipts": "Full receipts not supplied; no independent finality audit",
+    "observed_round_reads": 4,
+    "results_file": "HOSTED_RESULTS.json",
+    "round_id": 0,
+    "final_status": "SELECTED",
+    "selected_option": "hall",
+    "selected_by": "0xb32569c8822e66fae73b8eb3a11e0e6034bb4638",
+    "selection_hash": "13579a27ed35e9ec2fd4d33a174dcd9853355ab8336b1002e52b044ebc611fdf"
+  },
+  "repository_url": null,
+  "submission_status": "NOT_SUBMITTED",
+  "updated_date": "2026-10-21"
+}

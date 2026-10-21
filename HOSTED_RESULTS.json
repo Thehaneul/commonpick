@@ -1,0 +1,188 @@
+{
+  "project": "CommonPick",
+  "version": "commonpick-0.1",
+  "date": "2026-10-21",
+  "timezone": "Africa/Lagos",
+  "contract_address": "0x8b6591CF732fa0d98b6d47eE832d887811aaDf74",
+  "address_source": "Full address supplied by user; deployment screenshot shows matching abbreviated address 0x8b...Df74.",
+  "deployment": {
+    "screenshot": "Screenshot_2026-10-21-11-25-04-136_com.android.chrome.jpg",
+    "local_time": "11:25",
+    "execution_mode": "Normal (Full Consensus)",
+    "visible_status": "ACCEPTED",
+    "transaction_prefix": "0x2fce...",
+    "full_transaction_hash": null,
+    "simulation_mode_checked": false
+  },
+  "observations": [
+    {
+      "local_time": "11:27",
+      "screenshot": "Screenshot_2026-10-21-11-27-31-997_com.android.chrome.jpg",
+      "read": "get_round(0)",
+      "read_state": "Accepted",
+      "result": {
+        "version": "commonpick-0.1",
+        "round_id": 0,
+        "round_key": "meeting",
+        "members": [
+          "0x507de2c3391f085e99208c28ad4eeaf567995b43",
+          "0xb32569c8822e66fae73b8eb3a11e0e6034bb4638"
+        ],
+        "policy_hash": "0f9f3591816c3f4e1c96f8a1e317eae9ca63e3b665d02111d36e9ec021dfb293",
+        "round_hash": "96923776bad9bdc85c81a2b822e0c1242ca79769d1ca33bb9a157bdfe7796e34",
+        "common_options": [],
+        "selection": null,
+        "status": "WAITING_FOR_NEEDS",
+        "submitted": [
+          false,
+          false
+        ],
+        "uncertain_options": [],
+        "verdicts": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "local_time": "11:29",
+      "screenshot": "Screenshot_2026-10-21-11-29-29-720_com.android.chrome.jpg",
+      "read": "get_round(0)",
+      "read_state": "Accepted",
+      "result": {
+        "version": "commonpick-0.1",
+        "round_id": 0,
+        "round_key": "meeting",
+        "members": [
+          "0x507de2c3391f085e99208c28ad4eeaf567995b43",
+          "0xb32569c8822e66fae73b8eb3a11e0e6034bb4638"
+        ],
+        "policy_hash": "0f9f3591816c3f4e1c96f8a1e317eae9ca63e3b665d02111d36e9ec021dfb293",
+        "round_hash": "96923776bad9bdc85c81a2b822e0c1242ca79769d1ca33bb9a157bdfe7796e34",
+        "common_options": [],
+        "selection": null,
+        "status": "WAITING_FOR_NEEDS",
+        "submitted": [
+          true,
+          false
+        ],
+        "uncertain_options": [],
+        "verdicts": [
+          {
+            "garden": "YES",
+            "hall": "YES",
+            "video": "NO"
+          },
+          null
+        ]
+      }
+    },
+    {
+      "local_time": "11:31",
+      "screenshot": "Screenshot_2026-10-21-11-31-41-393_com.openai.chatgpt.jpg",
+      "read": "get_round(0)",
+      "read_state": "Accepted",
+      "result": {
+        "version": "commonpick-0.1",
+        "round_id": 0,
+        "round_key": "meeting",
+        "members": [
+          "0x507de2c3391f085e99208c28ad4eeaf567995b43",
+          "0xb32569c8822e66fae73b8eb3a11e0e6034bb4638"
+        ],
+        "policy_hash": "0f9f3591816c3f4e1c96f8a1e317eae9ca63e3b665d02111d36e9ec021dfb293",
+        "round_hash": "96923776bad9bdc85c81a2b822e0c1242ca79769d1ca33bb9a157bdfe7796e34",
+        "common_options": [
+          "hall"
+        ],
+        "selection": null,
+        "status": "READY",
+        "submitted": [
+          true,
+          true
+        ],
+        "uncertain_options": [],
+        "verdicts": [
+          {
+            "garden": "YES",
+            "hall": "YES",
+            "video": "NO"
+          },
+          {
+            "garden": "NO",
+            "hall": "YES",
+            "video": "NO"
+          }
+        ]
+      }
+    },
+    {
+      "local_time": "11:33",
+      "screenshot": "Screenshot_2026-10-21-11-33-41-788_com.openai.chatgpt.jpg",
+      "read": "get_round(0)",
+      "read_state": "Accepted",
+      "result": {
+        "version": "commonpick-0.1",
+        "round_id": 0,
+        "round_key": "meeting",
+        "members": [
+          "0x507de2c3391f085e99208c28ad4eeaf567995b43",
+          "0xb32569c8822e66fae73b8eb3a11e0e6034bb4638"
+        ],
+        "policy_hash": "0f9f3591816c3f4e1c96f8a1e317eae9ca63e3b665d02111d36e9ec021dfb293",
+        "round_hash": "96923776bad9bdc85c81a2b822e0c1242ca79769d1ca33bb9a157bdfe7796e34",
+        "common_options": [
+          "hall"
+        ],
+        "selection": {
+          "round_id": 0,
+          "round_hash": "96923776bad9bdc85c81a2b822e0c1242ca79769d1ca33bb9a157bdfe7796e34",
+          "option_id": "hall",
+          "selected_by": "0xb32569c8822e66fae73b8eb3a11e0e6034bb4638",
+          "ballot_hashes": [
+            "d98d89870fd0d05fa40a43d4a7a168fd2d912f937bbbf81cd00b0a074c03e50b",
+            "856bfc7a4ad11ddaeba05115e29093f0f956f83ad82478811f5ee8a93092445e"
+          ],
+          "selection_hash": "13579a27ed35e9ec2fd4d33a174dcd9853355ab8336b1002e52b044ebc611fdf"
+        },
+        "status": "SELECTED",
+        "submitted": [
+          true,
+          true
+        ],
+        "uncertain_options": [],
+        "verdicts": [
+          {
+            "garden": "YES",
+            "hall": "YES",
+            "video": "NO"
+          },
+          {
+            "garden": "NO",
+            "hall": "YES",
+            "video": "NO"
+          }
+        ]
+      }
+    }
+  ],
+  "walkthrough_status": "COMPLETED_FROM_ACCEPTED_STATE_SCREENSHOTS",
+  "consistency_checks": {
+    "policy_hash_reproduced_from_local_version_rules_options": true,
+    "round_hash_reproduced_from_transcribed_round_fields": true,
+    "selection_hash_reproduced_from_transcribed_selection_fields": true,
+    "round_hash_unchanged_across_all_four_reads": true,
+    "verdicts_unchanged_between_ready_and_selected": true,
+    "both_original_ballot_hashes_present_in_selection": true
+  },
+  "evidence_limits": [
+    "User-supplied screenshots, not independently fetched chain state or finalized receipts.",
+    "Deployment screenshot shows ACCEPTED, not FINALIZED. All round reads show Response (Accepted).",
+    "Full ballot bodies and model reasons were not supplied. Ballot hashes are transcribed from the final selection and are not recomputed from full ballots.",
+    "No before-selection ballot hash read was supplied; unchanged full ballot bodies were checked locally, not independently compared live.",
+    "The policy hash matches the local source constants; full deployed source bytes were not independently retrieved.",
+    "No further live testing or deployment is needed for this planned walkthrough."
+  ],
+  "repository_url": null,
+  "submission_status": "NOT_REPORTED"
+}

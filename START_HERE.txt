@@ -1,0 +1,27 @@
+COMMONPICK 0.1 — READY FOR GITHUB UPLOAD
+
+The planned Studio walkthrough is complete. No more Studio transactions or
+redeployment are needed.
+
+Contract: 0x8b6591CF732fa0d98b6d47eE832d887811aaDf74
+Observed result: round 0, meeting, SELECTED -> hall by the second member.
+Local checks: 74 fixture tests and SDK lint/validation passed.
+
+NEXT
+1. Download this updated ZIP and extract it once into a new folder.
+2. Create a new public GitHub repository named commonpick.
+3. Upload all 16 flat files to the repository root and commit.
+4. Send the repository URL in chat for verification and final submission text.
+
+GitHub description:
+GenLayer-powered meeting choices that respect both participants' stated needs.
+
+HOSTED_RESULTS.json records the screenshot observations and their limits.
+README.md explains behavior. VERIFICATION.md and saved logs describe local checks.
+IDEA_RESEARCH.md compares three ideas and all seven previous projects.
+PHONE_WALKTHROUGH.txt is the completed procedure retained for reference.
+GITHUB_AND_SUBMISSION.txt contains the known address and submission drafts.
+PACKAGE_MANIFEST.json records every package file's SHA-256 except its own.
+
+Source and tests are unchanged. There are no historical source subfolders.
+No submission has been reported; full finalized receipts were not audited.

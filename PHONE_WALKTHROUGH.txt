@@ -1,0 +1,83 @@
+COMMONPICK — SMALL PHONE WALKTHROUGH
+Version commonpick-0.1 | Prepared 21 October 2026
+COMPLETED 21 October 2026. Keep this original procedure for reference; do not
+repeat it on the completed instance. Actual observations are in HOSTED_RESULTS.json.
+The steps below retain their original planned wording.
+
+PLAN
+One deployment + four write calls + three result reads + one wallet switch.
+We will do one stage at a time in chat. No constructor inputs are required.
+Use Normal (Full Consensus), with Simulation Mode OFF for the write calls.
+Wait for acceptance/finalization before the next dependent action. Execution
+SUCCESS alone does not mean consensus accepted it. If UNDETERMINED or ERROR,
+stop and share the transaction detail; do not repeatedly resubmit or redeploy.
+
+Wallet A from our earlier walkthrough:
+0x507de2c3391f085e99208c28ad4eeaf567995b43
+Wallet B from our earlier walkthrough:
+0xb32569c8822e66fae73b8eb3a11e0e6034bb4638
+Use these only if they are still available in your Studio wallet selector.
+Otherwise use two different wallets you control and note their roles. No private
+keys or recovery words are needed. A two-wallet demo is not two-person identity proof.
+
+1. DEPLOY
+Download commonpick.py. In Studio open/import this file, choose Normal (Full
+Consensus), and deploy. There are no constructor fields to fill.
+Send the deployed contract address and deployment screenshot back in chat.
+
+2. CREATE THE ROUND — WALLET A
+Open create_round:
+round_key: meeting
+partner_wallet: 0xb32569c8822e66fae73b8eb3a11e0e6034bb4638
+Tap Send Transaction once. On a fresh instance the returned round ID is 0.
+If you used a different Wallet B, use its full public address instead.
+
+3. FIRST NEEDS — STILL WALLET A
+Open submit_needs:
+round_id: 0
+requirements:
+I want to meet in person. Either a seated board game or a garden walk is fine. I will not join online.
+
+Replace the entire text field; check it before tapping Send Transaction once.
+After acceptance, open get_round, enter round_id 0, tap Call Contract.
+Expected: WAITING_FOR_NEEDS, submitted [true,false]. First verdicts: hall YES,
+garden YES, video NO. Save/share the result screenshot.
+
+4. SECOND NEEDS — SWITCH ONCE TO WALLET B
+Keep the SAME deployed contract instance. Open submit_needs:
+round_id: 0
+requirements:
+I need a seated indoor activity. Board games are fine. I will not join an outdoor walk or an online call.
+
+Replace the entire text field before sending. After acceptance, call get_round(0).
+Expected: READY, common_options ["hall"], submitted [true,true]. Second verdicts:
+hall YES, garden NO, video NO. Save/share the result screenshot.
+
+5. SELECT THE SHARED OPTION — STAY ON WALLET B
+Open select_option:
+round_id: 0
+option_id: hall
+Send once. After acceptance, call get_round(0) again.
+Expected: SELECTED; selection.option_id is hall; selected_by is Wallet B.
+The selection also contains the original two ballot hashes and a selection hash.
+Save/share this screenshot. The planned demonstration is then complete.
+
+LOOKUPS AND RECOVERY — ONLY IF NEEDED
+- get_round shows the current shared result. Refresh it after each transaction;
+  previously displayed responses do not update automatically.
+- get_ballot shows the original needs and reason. member_index 0 = Wallet A,
+  member_index 1 = Wallet B. Both use the numeric round_id.
+- get_round_id uses the creator's full wallet address and round_key to recover
+  an ID. It returns -1 if no saved round exists for that wallet/key.
+- Once saved, needs cannot be overwritten. An accidental text submission needs
+  a new round; keep the original as evidence and ask in chat before expanding
+  the walkthrough. Do not claim it is an AI failure when old text was submitted.
+- If the actual model outcome differs from the expected one, share the stored
+  ballot/report and transaction status. Do not force a selection or alter code
+  just to make the example appear to pass.
+- Selection does not book the hall or prove that the meeting happened.
+
+CURRENT NEXT STEP
+The address and observed results are recorded. Upload the updated flat package
+to a new GitHub repository, then provide its URL for verification. The original
+walkthrough above is complete; there is no placeholder deployment address now.

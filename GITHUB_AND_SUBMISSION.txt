@@ -1,0 +1,54 @@
+COMMONPICK — GITHUB AND SUBMISSION DETAILS
+
+Suggested new repository name: commonpick
+
+GitHub description:
+GenLayer-powered meeting choices that respect both participants' stated needs.
+
+Project name: CommonPick
+
+Project description:
+CommonPick helps two participants choose a meeting format that fits both of
+their stated needs. GenLayer validators assess three fixed options from their
+plain-language requirements. The contract finds the shared suitable options
+and allows either participant to select only one of those options, preserving
+the original assessments and record hashes.
+
+Why GenLayer:
+Interpreting everyday requirements needs judgment. Validators independently
+compare the needs with the option descriptions and check the explanation. Their
+agreed verdicts determine which choices the contract permits, without relying
+on one organiser's AI response.
+
+What makes it different:
+It combines two members' compatible-option sets into a shared choice. Our earlier
+projects covered source origins, experimental separation, client scope changes,
+translated notices, learning progression, stock holds and task routing.
+
+Version: commonpick-0.1
+Repository URL: NOT CREATED OR VERIFIED YET
+Deployed contract address: 0x8b6591CF732fa0d98b6d47eE832d887811aaDf74
+Live demonstration: COMPLETED from Accepted-state screenshots on 21 October 2026
+Submission status: NOT SUBMITTED
+
+Validation evidence:
+- 74 local fixture tests passed, including one test covering all 729 verdict pairings.
+- SDK lint (3 checks) and semantic validation passed.
+- Studio round 0 recorded both members, their different option verdicts, a shared
+  hall option and selection by the second member.
+- Round hash and displayed verdicts stayed unchanged after selection.
+- Final selection records both ballot hashes and a reproducible selection hash.
+
+Evidence limits:
+Hosted observations are user-provided Accepted-state screenshots. Full finalized
+receipts and full ballot bodies were not independently audited. Local fixtures
+are not proof of model accuracy or prompt-injection resistance. Selection is a
+plan record, not a booking or proof of attendance.
+
+Before submission: upload the current files, verify the repository, and fill
+in its actual URL. No submission or acceptance has been reported.
+
+GitHub upload after walkthrough:
+Extract CommonPick_Starter_Package.zip once into a new folder. Upload its flat
+files to the root of the new repository. No nested historical code is included.
+Deploy only commonpick.py, not test_commonpick.py or prepare_test_sdk.py.

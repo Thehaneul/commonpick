@@ -1,0 +1,67 @@
+{
+  "project": "CommonPick",
+  "version": "commonpick-0.1",
+  "stage": "STUDIO_WALKTHROUGH_COMPLETE_GITHUB_PENDING",
+  "files": {
+    "EVIDENCE.json": {
+      "bytes": 2067,
+      "sha256": "3bd86ff188cd4c810177983b44475bf7075897332dccd712e452a85dec911db8"
+    },
+    "GITHUB_AND_SUBMISSION.txt": {
+      "bytes": 2546,
+      "sha256": "1d7d334fb778f61b09d4f607884b207ca141c2a1438154da4ce837f39a0e2d83"
+    },
+    "HOSTED_RESULTS.json": {
+      "bytes": 6478,
+      "sha256": "f56bc430715d54ee09915ad9ec5263b8974c56601e192faf34520d9f2d31ee2b"
+    },
+    "IDEA_RESEARCH.md": {
+      "bytes": 4943,
+      "sha256": "a3e9fd5e15d0b2b032345e912e4697bb5e31e4d47c2b97197dd2f0a0199f7e20"
+    },
+    "PHONE_WALKTHROUGH.txt": {
+      "bytes": 4236,
+      "sha256": "53d971e7a3d4719cbd54597eb46e919157fb9f5ad713fe182ca004daab94c6ff"
+    },
+    "README.md": {
+      "bytes": 6956,
+      "sha256": "4fa1a57a38a5111c3c5700c49a4e4d050df51c4e82a2d8ecca8d989539ad21ea"
+    },
+    "START_HERE.txt": {
+      "bytes": 1314,
+      "sha256": "da9ffe6ebcbdfae2fcb2e1d59f50ce1cda5b48740de84ff37e4707720cb39a54"
+    },
+    "VERIFICATION.md": {
+      "bytes": 5526,
+      "sha256": "b7ccad1f7528709a25fe0db7fc7a219b56ee8b8ba93e21824fcd6810bfff79e5"
+    },
+    "commonpick.py": {
+      "bytes": 15069,
+      "sha256": "ec5de2882737f09b2d47604e6f481b05b2decb3c31ba70d89e095d1bdc5a8648"
+    },
+    "initial_setup_attempt.txt": {
+      "bytes": 709,
+      "sha256": "4f96083b025741d03e7612b95ef33abf7761a59f7b5fe40f1341124efb850f12"
+    },
+    "local_test_results.txt": {
+      "bytes": 919,
+      "sha256": "81bad609374a482cc33d9a5117670b49cc8d3ccb3d60c859092b5e30519453aa"
+    },
+    "prepare_test_sdk.py": {
+      "bytes": 798,
+      "sha256": "4cc31f08cefbf6c4783721651a05a968e83d4635857a82846573b09986b6aa19"
+    },
+    "requirements-dev.txt": {
+      "bytes": 76,
+      "sha256": "0178b56626edbf3c7f076fcc89a09231d99880bf68aa73bf3a144a9ce7a45f78"
+    },
+    "sdk_check_results.txt": {
+      "bytes": 271,
+      "sha256": "01843759798b44b573adc2af8141f95f8079a621461d965863ac6a006b0d3abc"
+    },
+    "test_commonpick.py": {
+      "bytes": 17802,
+      "sha256": "e207fd40adcb7b3baaaabf2275e215d66b96a47e001dbb0e8061d47bd2bd42fb"
+    }
+  }
+}
